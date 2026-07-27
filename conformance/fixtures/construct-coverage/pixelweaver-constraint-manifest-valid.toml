@@ -1,0 +1,9 @@
+name = "pixelweaver-constraint-manifest-valid"
+category = "construct-coverage"
+provenance = "derived-from(examples/pixelweaver/samples/constraint-manifest.valid.json, verified against spec)"
+description = "PixelWeaver constraint-manifest: distinct palette colors, unique class ids, disjoint half-open ranges. Validates clean."
+schema = "_schemas/pixelweaver-constraint-manifest.toml"
+input = "_inputs/pixelweaver/constraint-manifest.valid.json"
+
+[expected]
+valid = true
